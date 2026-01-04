@@ -1,0 +1,21 @@
+/* Thiết lập khung nền xanh */
+.banner {
+    background-color: #1eff29; /* Màu xanh neon */
+    color: #000000;            /* Màu chữ đen */
+    font-family: Arial;
+    /* Kiểu chữ */
+    text-align: center; 
+    /* Căn giữa */
+}
+
+/* Kiểu dáng cho tiêu đề chính */
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Kiểu dáng cho dòng slogan in nghiêng */
+.slogan {
+    font-size: 24px;
+    font-style: italic;
+}

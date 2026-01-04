@@ -1,0 +1,8 @@
+.banner {
+    background-color: #7fbaf5; /* Màu xanh */
+    color: white;            /* Màu chữ trắng */
+    font-family: Courier;
+    /* Kiểu chữ */
+    text-align: center; 
+    /* Căn giữa */
+}

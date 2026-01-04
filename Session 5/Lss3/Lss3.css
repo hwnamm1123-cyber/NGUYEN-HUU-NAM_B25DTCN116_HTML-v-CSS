@@ -1,0 +1,15 @@
+.banner {
+    background-color: #f4f4f9; /* Màu trắng */           
+    font-family: Arial;
+}
+
+.title {
+    text-align: center; 
+    /* Căn giữa */
+    color: #1e90ff;
+}
+
+.title2 {
+    text-align: center; 
+}
+

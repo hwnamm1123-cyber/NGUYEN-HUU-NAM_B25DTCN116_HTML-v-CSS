@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.main {
+    background: #fff;
+}
+
+/* Tiêu đề màu xanh đặc trưng */
+.blue {
+    color: #1E90FF;
+    text-align: center;
+}
+
+/* Hình ảnh */
+.image {
+    text-align: center;
+}
+
+/* Danh sách cơ sở */
+.section {
+    text-align: center;
+}
+
+.branch.red { color: red; }
+

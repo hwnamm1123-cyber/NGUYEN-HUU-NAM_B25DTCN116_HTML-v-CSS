@@ -1,0 +1,20 @@
+.banner {
+    background-color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+}
+
+.main {
+    color: #1e90ff;
+}
+
+.feedback {
+    text-align: center;
+    background: #fff;
+    box-shadow: #1e90ff;
+}
+
+.submit-btn {
+    background-color: #00bfff;
+    color: #ffffff;
+}
