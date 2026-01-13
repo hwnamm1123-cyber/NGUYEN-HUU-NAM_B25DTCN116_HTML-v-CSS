@@ -84,23 +84,6 @@ tr:hover td {
     font-weight: bold;
 }
 
-.section form input,
-.section form select,
-.section form textarea {
-    display: inline-block;
-    font-size: 18px;
-}
-
-.section form input:focus,
-.section form select:focus,
-.section form textarea:focus {
-    background-color: #ecfeff;
-}
-
-.section form textarea::placeholder {
-    color: #64748b;
-}
-
 .footer {
     background-color: #0f766e;
     color: #f0fdfa;
