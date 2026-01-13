@@ -1,0 +1,67 @@
+body {
+    font-family: cursive;
+    background-color: #fff7ed; 
+    color: #3f2a1d;
+}
+
+
+h1 {
+    background-color: #fde68a;
+    color: #78350f;
+    text-align: center;
+}
+
+
+.menu {
+    background-color: #fed7aa;
+    text-align: center;
+}
+
+
+.image {
+    text-align: center;
+}
+
+
+.menu a {
+    color: #7c2d12;
+    text-decoration: none;
+}
+
+
+.menu a:hover {
+    color: white;
+    background-color: #c2410c;
+}
+
+
+.banner {
+    text-align: center;
+    background-color: #fff7ed;
+}
+
+
+.section {
+    background-color: #ffffff;
+}
+
+.section h2 {
+    color: #92400e;
+}
+
+
+.section li {
+    color: #431407;
+}
+
+
+.footer {
+    background-color: #78350f;
+    color: #fff7ed;
+    text-align: center;
+}
+
+ol li:hover {
+    background-color: #78350f;
+    color: yellow;
+}
