@@ -1,0 +1,46 @@
+.card {
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.note {
+    background-color: #ffedd5;
+    color: #f97316;
+    padding: 5px px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.info {
+    width: 25px;
+    color: #64748b;
+}
+
+.progress-container {
+    width: 100%;
+    height: 12px;
+    background-color: #f1f5f9;                  /* Màu nền của thanh tổng thể */
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 65%;                                 /* Độ dài thực tế của tiến trình (65%) */
+    height: 100%;
+    background-color: #22c55e;                  /* Màu xanh lá cây biểu thị tiến độ */
+    border-radius: 10px;
+}
+
+.date-info p {
+    color: #64748b;
+    font-size: 14px;
+}
