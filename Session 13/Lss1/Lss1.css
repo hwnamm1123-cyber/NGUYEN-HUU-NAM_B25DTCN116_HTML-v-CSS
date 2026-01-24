@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    width: 600;
+    height: auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card h1 {
+    font-size:35px;
+    color:black;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color:rgb(54, 54, 54);
+    margin-bottom: 35px;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(54, 54, 54);
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn button {
+    width: 100%;
+    padding: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.btn button:hover {
+    background-color: #0063cd;
+}
+
+.login-link {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 700;
+} 
+
+@media (max-width: 650px) {
+    .registration-card {
+        width: 100%;
+        padding: 25px;
+    }
+    
+    .input-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
